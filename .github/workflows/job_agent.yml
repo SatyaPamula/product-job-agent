@@ -2,8 +2,8 @@ name: Product Job Agent (India + Dubai)
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 * * * *"  # runs hourly (UTC)
+#  schedule:
+#    - cron: "0 * * * *"  # runs hourly (UTC)
 
 permissions:
   contents: write
